@@ -1,6 +1,4 @@
 # Simple Contact Bar For Wordpress
-**Contributors:** tuncayteke
-
 **Plugin Name:** Simple Contact Bar
 
 **Plugin URI:** https://wordpress.org/plugins/simple-contact-bar/
