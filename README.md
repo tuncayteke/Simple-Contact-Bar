@@ -93,7 +93,7 @@ Shortcode for displaying call us now link:
 **Screenshots**
 1. Settings Page
 
-**Changelog **
+**Changelog**
 
 = 1.0.0 =
 Initial Launch
