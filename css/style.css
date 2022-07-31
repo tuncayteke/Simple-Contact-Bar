@@ -1,0 +1,90 @@
+/*
+Plugin Name: Simple Contact Bar
+Plugin URI: https://wordpress.org/plugins/simple-contact-bar/
+Description: A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site. Display phone number, whatsapp number as text and click to call link, whatsapp chat link by shortcodes supports.
+Tags: click to call, call now, beni ara düğmesi, call now button, click to call bar, call button, telefonla arama, whatsapp button, text from whatsapp
+Requires at least: 4.0.0
+Tested up to: 6.0.1
+Stable tag: 1.0.0
+Author: Tuncay TEKE
+Author URI: https://tuncayteke.com.tr
+Text Domain: simple-contact-bar
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.call_now_row {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    z-index: 10000;
+    text-decoration: none;
+}
+
+.call_now_coll {
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    height: 38px;
+    text-decoration: none;
+}
+
+.call_now_coll_btn {
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.call_now_coll_btn,
+.call_now_coll_btn:hover,
+.call_now_coll_btn:focus {
+    text-decoration: none;
+}
+
+.call_now_coll_btn svg {
+    margin-right: 10px;
+}
+
+@media (min-width: 737px) {
+    body {
+        padding-bottom: 37px;
+    }
+    .call_now_row {
+        display: flex;
+        height: 38px;
+    }
+    .call_now_coll {
+        width: 50%;
+    }
+}
+
+@media (max-width: 736px) {
+    body {
+        padding-bottom: 75px;
+    }
+    .call_now_row {
+        flex-direction: column;
+        height: 76px;
+    }
+    .call_now_coll {
+        width: 100%;
+    }
+}
