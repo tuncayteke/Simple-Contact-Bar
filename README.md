@@ -21,7 +21,7 @@ This plugin adds a customizable click to call now button and whatsapp chat link 
 
 Perfect for small businesses or store owners who want to get phone calls from their sites. Simple Contact Bar also supports shortcodes for displaying mobile number, whatsapp number and simple call now links in your posts, pages and widgets.
 
-If you need more details please visit [SEO UZMANI](https://tuncayteke.com.tr/) Tucat TEKE's blog homepage.
+If you need more details please visit [SEO UZMANI](https://tuncayteke.com.tr/) Tuncay TEKE's homepage.
 
 * No hidden or Crytpted Codes
 * No Extra Font Libraries for Icons
