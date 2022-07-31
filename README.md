@@ -1,4 +1,4 @@
-# Simple Contact Bar ===
+# Simple Contact Bar
 Contributors: tuncayteke
 Tags: click to call, call now, beni ara düğmesi, call now button, click to call bar, call button, telefonla arama, whatsapp button, text from whatsapp
 Requires at least: 4.0.0
@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site. 
 
-== Description ==
+## Description
 
 This plugin adds a customizable click to call now button and whatsapp chat link button to the bottom of your site. It will allow users to easily call you from their phone or text message to your whatsapp chat number.
 
@@ -22,7 +22,7 @@ If you need more details please visit my personal blog [Tuncay TEKE](https://tun
 * Fully Responsive Codes
 * All values secured by wp_sanitize function
 
-== Installation ==
+## Installation
 
 1. Navigate to your WordPress dashboard and go to Plugins > Add New > and search for Simple Contact Bar 
 2. Install and Activate the plugin through the 'Plugins' screen in WordPress
@@ -30,7 +30,7 @@ If you need more details please visit my personal blog [Tuncay TEKE](https://tun
 4. Click enable and enter your phone number, whatsapp number, titles and choose your color options.
 5. Click Save Changes and you're done!
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions 
 **Where do I enter my phone number and title**
 
 Enter your phone number and Call Us Title in the Settings > Simple Contact Bar page. If you don't enter a message the phone icon will still show up. 
