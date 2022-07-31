@@ -1,11 +1,11 @@
 # Simple Contact Bar
-Contributors: tuncayteke
-Tags: click to call, call now, beni ara düğmesi, call now button, click to call bar, call button, telefonla arama, whatsapp button, text from whatsapp
-Requires at least: 4.0.0
-Tested up to: 6.0.1
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+**Contributors:** tuncayteke
+**Tags:** click to call, call now, beni ara düğmesi, call now button, click to call bar, call button, telefonla arama, whatsapp button, text from whatsapp
+**Requires at least:** Wordpress 4.0.0
+**Tested up to:** 6.0.1
+**Stable tag:** 1.0.0
+**License:** GPLv2 or later
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
 A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site. 
 
@@ -15,7 +15,7 @@ This plugin adds a customizable click to call now button and whatsapp chat link 
 
 Perfect for small businesses or store owners who want to get phone calls from their sites. Simple Contact Bar also supports shortcodes for displaying mobile number, whatsapp number and simple call now links in your posts, pages and widgets.
 
-If you need more details please visit my personal blog [Tuncay TEKE](https://tuncayteke.com.tr/) homepage.
+If you need more details please visit [SEO UZMANI](https://tuncayteke.com.tr/) Tucat TEKE's blog homepage.
 
 * No hidden or Crytpted Codes
 * No Extra Font Libraries for Icons
