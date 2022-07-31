@@ -1,4 +1,4 @@
-=== Simple Contact Bar ===
+# Simple Contact Bar ===
 Contributors: tuncayteke
 Tags: click to call, call now, beni ara düğmesi, call now button, click to call bar, call button, telefonla arama, whatsapp button, text from whatsapp
 Requires at least: 4.0.0
