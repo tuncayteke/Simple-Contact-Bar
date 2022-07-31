@@ -1,5 +1,9 @@
-# Simple Contact Bar
+# Simple Contact Bar For Wordpress
 **Contributors:** tuncayteke
+
+**Plugin Name:** Simple Contact Bar
+
+**Plugin URI:** https://wordpress.org/plugins/simple-contact-bar/
 
 **Tags:** click to call, call now, beni ara düğmesi, call now button, click to call bar, call button, telefonla arama, whatsapp button, text from whatsapp
 
@@ -8,6 +12,12 @@
 **Tested up to:** 6.0.1
 
 **Stable tag:** 1.0.0
+
+**Author:** Tuncay TEKE
+
+**Author URI:** https://tuncayteke.com.tr
+
+**Text Domain:** simple-contact-bar
 
 **License:** GPLv2 or later
 
