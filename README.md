@@ -84,6 +84,7 @@ Shortcode for displaying whatsapp number as text:
 <code>
 [scb_whatsapp_number]
 </code>
+
 Shortcode for displaying call us now link:
 <code>
 [scb_whatsapp_link]
