@@ -57,7 +57,7 @@ function simple_contact_bar_settings_init()
 
     add_settings_section(
         'simple_contact_bar_page_section',
-        __('A simple plugin that adds a click to call now button and whatsapp contact link button to the bottom of your site. Also supports shortcodes.', 'simple-contact-bar'),
+        __('A simple plugin that adds a click to call now button and whatsapp contact link button to the bottom of your site and Also supports shortcodes.', 'simple-contact-bar'),
         'simple_contact_bar_settings_section_callback',
         'simple_contact_bar_page'
     );
