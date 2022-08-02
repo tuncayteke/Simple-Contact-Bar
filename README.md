@@ -75,7 +75,7 @@ Shortcode for displaying phone number as text:
 [simple_contact_bar_phone_number]
 </code>
 
-Shortcode for displaying call us now link:
+Shortcode for displaying clickable phone link with title:
 <code>
 [simple_contact_bar_phone_link]
 </code>
@@ -85,7 +85,7 @@ Shortcode for displaying whatsapp number as text:
 [simple_contact_bar_whatsapp_number]
 </code>
 
-Shortcode for displaying call us now link:
+SShortcode for displaying clickable whatsapp link with title:
 <code>
 [simple_contact_bar_whatsapp_link]
 </code>
