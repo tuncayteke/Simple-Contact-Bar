@@ -89,7 +89,7 @@ msgstr ""
 #. Description of the plugin/theme
 msgid ""
 "A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site."
-"Display phone number, whatsapp number as text and click to call link, whatsapp chat link by shortcodes supports."
+"Display phone number, whatsapp number as text and click to call link and whatsapp chat link by shortcodes supports."
 msgstr ""
 
 #. Author of the plugin/theme
