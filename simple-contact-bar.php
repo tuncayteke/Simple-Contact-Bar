@@ -5,14 +5,14 @@ Plugin Name: Simple Contact Bar
 Plugin URI: https://wordpress.org/plugins/simple-contact-bar/
 Description: A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site. Display phone number, whatsapp number as text and click to call link, whatsapp chat link by shortcodes supports.
 Tags: click to call, call now, beni ara düğmesi, call now button, click to call bar, call button, telefonla arama, whatsapp button, text from whatsapp
-Requires at least: 4.0.0
-Tested up to: 6.0.1
-Stable tag: 1.0.0
+Requires at least: Wordpress 4.0.0
+Tested up to: Wordpress 6.0.1
+Version: 1.0
 Author: Tuncay TEKE
 Author URI: https://tuncayteke.com.tr
 Text Domain: simple-contact-bar
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: GPL2+ or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.txt
 */
 
 // Add Admin Stuff
@@ -57,14 +57,14 @@ function simple_contact_bar_settings_init()
 
     add_settings_section(
         'simple_contact_bar_page_section',
-        __('A simple plugin that adds a click to call now button and whatsapp contact link button to the bottom of your site. Also supports shortcodes.', 'simple_contact_bar_plugin'),
+        __('A simple plugin that adds a click to call now button and whatsapp contact link button to the bottom of your site. Also supports shortcodes.', 'simple-contact-bar'),
         'simple_contact_bar_settings_section_callback',
         'simple_contact_bar_page'
     );
 
     add_settings_field(
         'simple_contact_bar_enable',
-        __('Enable simple_contact_bar Bar/Buttons', 'simple_contact_bar_plugin'),
+        __('Enable simple_contact_bar Bar/Buttons', 'simple-contact-bar'),
         'simple_contact_bar_settings_enable_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
@@ -72,7 +72,7 @@ function simple_contact_bar_settings_init()
 
     add_settings_field(
         'simple_contact_bar_phone_title',
-        __('Your Click to Call Button Title Message', 'simple_contact_bar_plugin'),
+        __('Your Click to Call Button Title Message', 'simple-contact-bar'),
         'simple_contact_bar_phone_title_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
@@ -80,7 +80,7 @@ function simple_contact_bar_settings_init()
 
     add_settings_field(
         'simple_contact_bar_phone_number',
-        __('Your Phone Number', 'simple_contact_bar_plugin'),
+        __('Your Phone Number', 'simple-contact-bar'),
         'simple_contact_bar_phone_number_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
@@ -88,7 +88,7 @@ function simple_contact_bar_settings_init()
 
     add_settings_field(
         'simple_contact_bar_whatsapp_title',
-        __('Your Whatsapp Button Title Message', 'simple_contact_bar_plugin'),
+        __('Your Whatsapp Button Title Message', 'simple-contact-bar'),
         'simple_contact_bar_whatsapp_title_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
@@ -96,7 +96,7 @@ function simple_contact_bar_settings_init()
 
     add_settings_field(
         'simple_contact_bar_whatsapp_number',
-        __('Your Whatsapp Number', 'simple_contact_bar_plugin'),
+        __('Your Whatsapp Number', 'simple-contact-bar'),
         'simple_contact_bar_whatsapp_number_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
@@ -104,21 +104,21 @@ function simple_contact_bar_settings_init()
 
     add_settings_field(
         'simple_contact_bar_phone_text_color',
-        __('Your Phone Number Title Text Color', 'simple_contact_bar_plugin'),
+        __('Your Phone Number Title Text Color', 'simple-contact-bar'),
         'simple_contact_bar_phone_text_color_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
     );
     add_settings_field(
         'simple_contact_bar_phone_bg_color',
-        __('Click to Call Button Background Color', 'simple_contact_bar_plugin'),
+        __('Click to Call Button Background Color', 'simple-contact-bar'),
         'simple_contact_bar_phone_bg_color_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
     );
     add_settings_field(
         'simple_contact_bar_whatsapp_text_color',
-        __('Your Whatsapp Title Text Color', 'simple_contact_bar_plugin'),
+        __('Your Whatsapp Title Text Color', 'simple-contact-bar'),
         'simple_contact_bar_whatsapp_text_color_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
@@ -127,7 +127,7 @@ function simple_contact_bar_settings_init()
 
     add_settings_field(
         'simple_contact_bar_whatsapp_bg_color',
-        __('Your Whatsapp Button Background Color', 'simple_contact_bar_plugin'),
+        __('Your Whatsapp Button Background Color', 'simple-contact-bar'),
         'simple_contact_bar_whatsapp_bg_color_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
@@ -230,7 +230,7 @@ function simple_contact_bar_whatsapp_bg_color_render()
 
 function simple_contact_bar_settings_section_callback()
 {
-    echo __('Enter your information in the fields below. If you don\'t enter anything into the message area a phone icon will still show.', 'simple_contact_bar_plugin');
+    echo __('Enter your information in the fields below. If you don\'t enter anything into the message area a phone icon will still show.', 'simple-contact-bar');
 }
 
 // Output Code If Enabled
@@ -340,20 +340,20 @@ function simple_contact_bar_options_page()
 ?>
     <form action="options.php" method="post">
 
-        <h1><?php echo __('Simple Contact Bar for Click to call and Whatsapp chat buttons.', 'simple_contact_bar_plugin'); ?></h1>
+        <h1><?php echo __('Simple Contact Bar for Click to call and Whatsapp chat buttons.', 'simple-contact-bar'); ?></h1>
         <?php
         settings_fields('simple_contact_bar_page');
         do_settings_sections('simple_contact_bar_page');
         submit_button();
         ?>
     </form>
-    <h3>::. <?php echo __('Shortcode Supports', 'simple_contact_bar_plugin'); ?> .::</h3>
-    <p><strong><?php echo __('Shortcode for displaying phone number as text', 'simple_contact_bar_plugin'); ?>:</strong> [simple_contact_bar_phone_number]</p>
-    <p><strong><?php echo __('Shortcode for displaying clickable phone link with title', 'simple_contact_bar_plugin'); ?>:</strong> [simple_contact_bar_phone_link]</p>
-    <p><strong><?php echo __('Shortcode for displaying whatsapp number as text', 'simple_contact_bar_plugin'); ?>:</strong> [simple_contact_bar_whatsapp_number]</p>
-    <p><strong><?php echo __('Shortcode for displaying clickable whatsapp link with title', 'simple_contact_bar_plugin'); ?>:</strong> [simple_contact_bar_whatsapp_link]</p>
+    <h3>::. <?php echo __('Shortcode Supports', 'simple-contact-bar'); ?> .::</h3>
+    <p><strong><?php echo __('Shortcode for displaying phone number as text', 'simple-contact-bar'); ?>:</strong> [simple_contact_bar_phone_number]</p>
+    <p><strong><?php echo __('Shortcode for displaying clickable phone link with title', 'simple-contact-bar'); ?>:</strong> [simple_contact_bar_phone_link]</p>
+    <p><strong><?php echo __('Shortcode for displaying whatsapp number as text', 'simple-contact-bar'); ?>:</strong> [simple_contact_bar_whatsapp_number]</p>
+    <p><strong><?php echo __('Shortcode for displaying clickable whatsapp link with title', 'simple-contact-bar'); ?>:</strong> [simple_contact_bar_whatsapp_link]</p>
     <p><br></p>
-    <p><?php echo __('Thanks for using Simple Contact Bar. Coded with love by ', 'simple_contact_bar_plugin'); ?><a href="https://tuncayteke.com.tr">Tuncay TEKE</a></p>
+    <p><?php echo __('Thanks for using Simple Contact Bar. Coded with love by ', 'simple-contact-bar'); ?><a href="https://tuncayteke.com.tr">Tuncay TEKE</a></p>
 <?php
 
 }
