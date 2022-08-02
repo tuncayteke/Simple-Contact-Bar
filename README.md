@@ -95,5 +95,5 @@ Shortcode for displaying call us now link:
 
 **Changelog**
 
-= 1.0.0 =
+= 1.0 =
 Initial Launch
