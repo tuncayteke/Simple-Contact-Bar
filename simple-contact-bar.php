@@ -3,7 +3,7 @@ if (!defined('ABSPATH')) exit;
 /*
 Plugin Name: Simple Contact Bar
 Plugin URI: https://wordpress.org/plugins/simple-contact-bar/
-Description: A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site. Display phone number and whatsapp number as text and click to call link  whatsapp chat link by shortcodes supports.
+Description: A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site. Display phone number and whatsapp number as text and click to call link whatsapp chat link by shortcodes supports.
 Tags: click to call, call now, beni ara düğmesi, call now button, click to call bar, call button, telefonla arama, whatsapp button, text from whatsapp
 Requires at least: Wordpress 4.0.0
 Tested up to: Wordpress 6.0.1
