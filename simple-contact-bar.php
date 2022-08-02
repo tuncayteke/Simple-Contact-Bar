@@ -64,7 +64,7 @@ function simple_contact_bar_settings_init()
 
     add_settings_field(
         'simple_contact_bar_enable',
-        __('Enable Simple Contact Bar Bar and Buttons', 'simple-contact-bar'),
+        __('Enable Simple Contact Bar and Buttons', 'simple-contact-bar'),
         'simple_contact_bar_settings_enable_render',
         'simple_contact_bar_page',
         'simple_contact_bar_page_section'
