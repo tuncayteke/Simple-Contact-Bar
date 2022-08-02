@@ -9,7 +9,7 @@
 
 **Requires at least:** Wordpress 4.0.0
 
-**Tested up to:** 6.0.1
+**Tested up to:** Wordpress 6.0.1
 
 **Stable tag:** 1.0
 
