@@ -1,0 +1,101 @@
+# Copyright (C) 2022 Simple Contact Bar
+# This file is distributed under the same license as the Simple Contact Bar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Contact Bar 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-contact-bar\n"
+"POT-Creation-Date: 2022-08-02 12:27:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: simple-contact-bar.php:60
+msgid "A simple plugin that adds a click to call now button and whatsapp contact link button to the bottom of your site and Also supports shortcodes."
+msgstr ""
+
+#. #-#-#-#-#  simple-contact-bar.pot (Simple Contact Bar 1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: simple-contact-bar.php:343
+msgid "Simple Contact Bar for Click to call and Whatsapp chat buttons."
+msgstr ""
+
+#: simple-contact-bar.php:67
+msgid "Enable Simple Contact Bar and Buttons"
+msgstr ""
+
+#: simple-contact-bar.php:75
+msgid "Your Click to Call Button Title Message"
+msgstr ""
+
+#: simple-contact-bar.php:83
+msgid "Your Phone Number"
+msgstr ""
+
+#: simple-contact-bar.php:91
+msgid "Your Whatsapp Button Title Message"
+msgstr ""
+
+#: simple-contact-bar.php:99
+msgid "Your Whatsapp Number"
+msgstr ""
+
+#: simple-contact-bar.php:107
+msgid "Your Phone Number Title Text Color"
+msgstr ""
+
+#: simple-contact-bar.php:114
+msgid "Click to Call Button Background Color"
+msgstr ""
+
+#: simple-contact-bar.php:121
+msgid "Your Whatsapp Title Text Color"
+msgstr ""
+
+#: simple-contact-bar.php:130
+msgid "Your Whatsapp Button Background Color"
+msgstr ""
+
+#: simple-contact-bar.php:350
+msgid "Shortcode Supports"
+msgstr ""
+
+#: simple-contact-bar.php:351
+msgid "Shortcode for displaying phone number as text"
+msgstr ""
+
+#: simple-contact-bar.php:352
+msgid "Shortcode for displaying clickable phone link with title"
+msgstr ""
+
+#: simple-contact-bar.php:353
+msgid "Shortcode for displaying whatsapp number as text"
+msgstr ""
+
+#: simple-contact-bar.php:354
+msgid "Shortcode for displaying clickable whatsapp link with title"
+msgstr ""
+
+#: simple-contact-bar.php:354
+msgid "Thanks for using Simple Contact Bar Coded with love by"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/simple-contact-bar/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site."
+"Display phone number, whatsapp number as text and click to call link, whatsapp chat link by shortcodes supports."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tuncay Teke"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://tuncayteke.com.tr"
+msgstr ""
