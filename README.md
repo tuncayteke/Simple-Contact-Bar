@@ -11,7 +11,7 @@
 
 **Tested up to:** 6.0.1
 
-**Stable tag:** 1.0.0
+**Stable tag:** 1.0
 
 **Author:** Tuncay TEKE
 
