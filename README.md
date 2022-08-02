@@ -19,9 +19,9 @@
 
 **Text Domain:** simple-contact-bar
 
-**License:** GPLv2 or later
+**License:** GPL2+ or later
 
-**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.txt
 
 A simple plugin that adds a contact bar for Click To Call Now Button and Whatsapp Chat Button which fixed to the bottom of your site. 
 
