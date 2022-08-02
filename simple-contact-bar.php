@@ -36,7 +36,7 @@ function simple_contact_bar_add_color_picker($hook)
         wp_enqueue_style('wp-color-picker');
 
         // Include Color Picker JS
-        wp_enqueue_script('custom-script-handle', plugins_url('js/simple_contact_bar.js', __FILE__), array('wp-color-picker'), false, true);
+        wp_enqueue_script('custom-script-handle', plugins_url('js/simple-contact-bar.js', __FILE__), array('wp-color-picker'), false, true);
     }
 }
 
