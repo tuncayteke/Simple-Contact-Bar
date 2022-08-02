@@ -72,22 +72,22 @@ You can use Simple Contact Bar Shortcodes in your posts, pages, wiidgets etc. By
 
 Shortcode for displaying phone number as text:
 <code>
-[scb_phone_number]
+[simple_contact_bar_phone_number]
 </code>
 
 Shortcode for displaying call us now link:
 <code>
-[scb_phone_link]
+[simple_contact_bar_phone_link]
 </code>
 
 Shortcode for displaying whatsapp number as text:
 <code>
-[scb_whatsapp_number]
+[simple_contact_bar_whatsapp_number]
 </code>
 
 Shortcode for displaying call us now link:
 <code>
-[scb_whatsapp_link]
+[simple_contact_bar_whatsapp_link]
 </code>
 
 
